@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Добавить поле ввода текста и кнопку с текстом отправть в форму -->
+    <form>
+     <input type="text" name="userName" placeholder="Enter your name"/>
+     <input type="number" name="age" placeholder="Enter your age"/>
+     <input type="date" name="birthDate" />
+      <div>
+        <label for="red" style="color: red">
+          <input id="red" type="checkbox" name="favoriteColors" value="red">red
+        </label>
+        <label for="green"  style="color: green">
+          <input type="checkbox" id="green" name="favoriteColors" value="green">green
+        </label>
+        <label for="blue" style="color: blue">
+          <input type="checkbox" id="blue" name="favoriteColors" value="blue">blue
+        </label>
+      </div>
+      <div>
+        <label for="female"><input name="gender" id="female" type="radio" value="female">female</label>
+        <label for="male"><input name="gender" id="male" type="radio" value="male">male</label>
+        <label for="other"><input name="gender" id="other" type="radio" value="other">other</label>
+      </div>
+     <button type="submit">Send</button>
+     <button type="reset">Clear</button>
+    </form>
+  </form>
+  </body>
+</html>
