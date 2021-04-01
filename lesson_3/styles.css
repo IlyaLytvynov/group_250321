@@ -1,0 +1,107 @@
+/*Это мой первый ЦСС*/
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+ol,
+p,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./assets/45d10e_8b6ac011530347fbbb1ed0d0d1d4fb24_mv2\ 1@2x.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  border: 2px solid red;
+}
+
+.page-header {
+  margin-bottom: 50px;
+}
+
+.page-main {
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+  padding: 68px 0;
+  font-size: 23px;
+}
+
+.nav-link {
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  color: #47fcc0;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: #ff31ec;
+  text-decoration: underline;
+}
+
+.title {
+  margin-top: 4px;
+  font-size: 70px;
+  text-transform: uppercase;
+}
+
+.description {
+  margin-top: 59px;
+  font-size: 19px;
+}
+
+.button {
+  width: 268px;
+  height: 57px;
+  background: #47fcc0;
+  border: 1px solid #47fcc0;
+  color: #fff;
+  font-size: 23px;
+  margin-top: 34px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover {
+  background: transparent;
+  border: 1px solid #47fcc0;
+  color: #47fcc0;
+}
+
+.button:focus {
+  border: 2px solid #63c0a1;
+  background: #2fc895;
+}
+
+.page-footer {
+  text-align: center;
+  margin-top: 500px;
+  margin-bottom: 55px;
+}
+
+.footer-link {
+  color: #63c0a1;
+}
