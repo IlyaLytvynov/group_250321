@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(223, 223, 166);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.modal-window {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modal-window__overlay {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-window__content {
+  width: 730px;
+  height: 538px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background: url(./assets/19268166-a053-414d-a322-a7b3dc68200a.png);
+  padding: 50px 84px;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.modal-window__close-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.modal-window__label:before,
+.modal-window__label:after {
+  content: '-';
+  padding: 10px;
+}
+
+.modal-window__options {
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.modal-window__title {
+  font-size: 56px;
+}
+
+.modal-window__option {
+  margin-top: 15px;
+  font-size: 17px;
+}
+
+.modal-window__action-button {
+  margin-top: 50px;
+  background-color: rgb(250, 100, 0);
+  border: rgb(250, 100, 0);
+  border-radius: 20px;
+  width: 214px;
+  height: 52px;
+  color: #fff;
+  font-size: 20px;
+}
