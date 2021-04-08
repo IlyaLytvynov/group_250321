@@ -1,0 +1,9 @@
+.global-header {
+  height: var(--header-height);
+  font-family: 'Noticia Text', serif;
+}
+
+.global-header__content {
+  display: flex;
+  height: 100%;
+}

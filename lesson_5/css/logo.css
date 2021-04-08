@@ -1,0 +1,15 @@
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: var(--title-color);
+}
+
+.logo__title {
+  font-size: 43px;
+}
+
+.logo__sub-title {
+  font-size: 18px;
+  margin-top: 12px;
+}

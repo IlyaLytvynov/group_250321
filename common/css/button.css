@@ -1,0 +1,105 @@
+.btn {
+  --bg-color: grey;
+  --text-color: rgb(44, 44, 44);
+  padding: 15px 27px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid var(--bg-color);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.btn:hover {
+  --text-color: rgb(136, 136, 136);
+}
+
+.btn_filled {
+  --bg-color: rgb(172, 172, 172);
+  background-color: var(--bg-color);
+  border: 1px solid var(--bg-color);
+} 
+
+.btn_primary {
+  --bg-color: rgb(71, 120, 184);
+  --text-color: #FFF
+}
+
+.btn_primary:hover {
+  --bg-color: rgb(29, 89, 167);
+  --text-color: #FFF
+}
+
+.btn_secondary {
+  --bg-color: rgb(114, 65, 160);
+  --text-color: #FFF
+}
+
+.btn_secondary:hover  {
+  --bg-color: rgb(82, 10, 150);
+  --text-color: #FFF
+}
+
+.btn_bordered {
+  background-color: transparent;
+  border-color: var(--bg-color);
+  color: var(--bg-color)
+}
+
+.btn_transparent{
+  --bg-color: transparent;
+  --text-color: #000;
+  background-color: --bg-color;
+  border-color: var(--bg-color);
+  color: var(--text-color)
+}
+
+.btn_transparent.btn_secondary {
+  --text-color: rgb(114, 65, 160);
+}
+
+.btn_large {
+  padding: 20px 35px;
+  font-size: 30px
+}
+
+.btn_disabled {
+  --bg-color: rgb(68, 68, 68);
+  text-decoration: line-through;
+  --text-color: rgb(37, 37, 37);
+}
+
+/* 
+.btn:hover {
+  --bg-color: red;
+  --text-color: #fff;
+}
+
+.btn-2 {
+  --bg-color: #53a53e;
+  --text-color: rgb(31, 31, 31);
+  padding: 15px 27px;
+  border: 1px solid var(--bg-color);
+  background: transparent;
+  color: var(--text-color);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-2:hover {
+  background: var(--bg-color);
+}
+
+.btn-3 {
+  --bg-color: transparent;
+  --text-color: rgb(31, 31, 31);
+  padding: 15px 27px;
+  border: 1px solid var(--bg-color);
+  background: var(--bg-color);
+  color: var(--text-color);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-3:hover {
+  --bg-color: rgb(78, 115, 184);
+} */ ; */

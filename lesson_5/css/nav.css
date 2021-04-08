@@ -1,0 +1,25 @@
+:root {
+  --global-link-color: #8b8b8b;
+}
+
+.nav {
+  display: flex;
+  align-items: flex-end;
+}
+
+.nav__link {
+  padding: 5px 15px;
+  color: var(--global-link-color);
+  text-decoration: none;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  --global-link-color: #61d0d4;
+}
+
+.nav__link:first-child {
+  margin-left: 10px;
+}
