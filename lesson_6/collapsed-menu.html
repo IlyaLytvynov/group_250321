@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../common/css/base.css" />
+    <link rel="stylesheet" href="./css/collapsed-menu.css" />
+  </head>
+  <body>
+    <header class="global-header">
+      <div class="globa-header__content page-content">
+        <nav class="global-nav" id="nav">
+          <button class="global-nav__toggle" id="btn"></button>
+          <ul class="global-nav__list">
+            <li class="global-nav__item">
+              <a href="#" class="global-nav__link">Mac</a>
+            </li>
+            <li class="global-nav__item">
+              <a href="#" class="global-nav__link">iPad</a>
+            </li>
+            <li class="global-nav__item">
+              <a href="#" class="global-nav__link">iPhone</a>
+            </li>
+            <li class="global-nav__item">
+              <a href="#" class="global-nav__link">Watch</a>
+            </li>
+            <li class="global-nav__item">
+              <a href="#" class="global-nav__link">TV</a>
+            </li>
+            <li class="global-nav__item">
+              <a href="#" class="global-nav__link">Music</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="global-main">
+      <div class="page-content">
+        <h1>COLLAPSED MENU EXAMPLE!</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+          harum cumque quasi quisquam explicabo sapiente assumenda fugit minima
+          neque qui, tenetur nihil tempore exercitationem eum quidem laborum,
+          enim molestiae dolore.
+        </p>
+      </div>
+    </main>
+    <footer class="global-footer"></footer>
+    <script>
+      btn.addEventListener('click', () => {
+        nav.classList.toggle('global-nav_opened');
+      });
+    </script>
+  </body>
+</html>

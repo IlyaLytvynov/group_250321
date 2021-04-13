@@ -1,0 +1,25 @@
+.test {
+  height: var(--nav-height);
+  display: flex;
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+  }
+  &__item {
+    display: flex;
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--link-color-default);
+  }
+}
+
+@for $i from 1 through 10 {
+  .item-#{$i} {
+    width: 10px * $i;
+  }
+}

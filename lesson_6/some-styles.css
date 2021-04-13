@@ -1,0 +1,61 @@
+.test {
+  height: var(--nav-height);
+  display: flex;
+}
+.test__list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  list-style: none;
+}
+.test__item {
+  display: flex;
+}
+.test__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--link-color-default);
+}
+
+.item-1 {
+  width: 10px;
+}
+
+.item-2 {
+  width: 20px;
+}
+
+.item-3 {
+  width: 30px;
+}
+
+.item-4 {
+  width: 40px;
+}
+
+.item-5 {
+  width: 50px;
+}
+
+.item-6 {
+  width: 60px;
+}
+
+.item-7 {
+  width: 70px;
+}
+
+.item-8 {
+  width: 80px;
+}
+
+.item-9 {
+  width: 90px;
+}
+
+.item-10 {
+  width: 100px;
+}
+
+/*# sourceMappingURL=some-styles.css.map */

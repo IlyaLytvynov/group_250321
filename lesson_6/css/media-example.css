@@ -1,0 +1,42 @@
+:root {
+  --height: 100px;
+}
+
+.parent {
+  background: #8eb47f;
+  border: 4px solid red;
+}
+
+.child {
+  height: var(--height);
+  border: 3px solid aqua;
+  text-align: center;
+  line-height: var(--height);
+  flex-shrink: 0;
+}
+/* TABLETS */
+@media screen and (max-width: 1023px) {
+  :root {
+    --height: 250px;
+  }
+  .parent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .child {
+    width: 50%;
+    border: 3px solid rgb(255, 0, 242);
+  }
+}
+/* mobile */
+@media screen and (max-width: 767px) {
+  .parent {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .child {
+    width: 100%;
+    border: 3px solid rgb(0, 4, 255);
+  }
+}
