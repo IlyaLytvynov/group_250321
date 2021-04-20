@@ -1,0 +1,48 @@
+.content {
+  margin: 10px;
+}
+.content__item {
+  border: 1px solid red;
+  min-height: 400px;
+  margin: 10px;
+  display: flex;
+  width: 100%;
+}
+.content > *:nth-child(1) .content__item {
+  background-image: url(../assets/img/1.webp);
+  background-size: cover;
+}
+.content > *:nth-child(2) .content__item {
+  background-image: url(../assets/img/2.webp);
+  background-size: cover;
+}
+.content > *:nth-child(3) .content__item {
+  background-image: url(../assets/img/3.webp);
+  background-size: cover;
+}
+.content > *:nth-child(4) .content__item {
+  background-image: url(../assets/img/4.webp);
+  background-size: cover;
+}
+.content > *:nth-child(5) .content__item {
+  background-image: url(../assets/img/5.webp);
+  background-size: cover;
+}
+.content > *:nth-child(6) .content__item {
+  background-image: url(../assets/img/6.webp);
+  background-size: cover;
+}
+.content > *:nth-child(7) .content__item {
+  background-image: url(../assets/img/7.webp);
+  background-size: cover;
+}
+.content > *:nth-child(8) .content__item {
+  background-image: url(../assets/img/8.webp);
+  background-size: cover;
+}
+.content > *:nth-child(9) .content__item {
+  background-image: url(../assets/img/9.webp);
+  background-size: cover;
+}
+
+/*# sourceMappingURL=content.css.map */

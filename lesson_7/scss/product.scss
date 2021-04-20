@@ -1,0 +1,7 @@
+.product {
+  --height: 200px;
+  min-height: var(#{--height});
+  margin: 10px;
+  text-align: center;
+  background: red;
+}

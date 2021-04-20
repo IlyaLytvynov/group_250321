@@ -1,0 +1,31 @@
+:root {
+  --spacing: 50px;
+}
+
+.info-card {
+  background: rgb(237, 214, 95);
+  padding: var(--spacing);
+  color: var(--font-color-main);
+  position: relative;
+  padding-bottom: 100px;
+  &__title {
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.25em;
+  }
+  &__line {
+    width: 30px;
+    margin-top: 30px;
+    margin-left: 0;
+    border: 1px solid var(--font-color-main);
+  }
+  &__description {
+    margin-top: 30px;
+  }
+
+  &__link {
+    position: absolute;
+    bottom: var(--spacing);
+    left: var(--spacing);
+  }
+}

@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+  &__logo {
+    transform: translateY(30px);
+  }
+}
+
+.logo {
+  font-size: 50px;
+  letter-spacing: 0.7em;
+  font-weight: 400;
+}

@@ -1,0 +1,32 @@
+:root {
+  --spacing: 50px;
+}
+
+.info-card {
+  background: #edd65f;
+  padding: var(--spacing);
+  color: var(--font-color-main);
+  position: relative;
+  padding-bottom: 100px;
+}
+.info-card__title {
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+}
+.info-card__line {
+  width: 30px;
+  margin-top: 30px;
+  margin-left: 0;
+  border: 1px solid var(--font-color-main);
+}
+.info-card__description {
+  margin-top: 30px;
+}
+.info-card__link {
+  position: absolute;
+  bottom: var(--spacing);
+  left: var(--spacing);
+}
+
+/*# sourceMappingURL=info-card.css.map */
