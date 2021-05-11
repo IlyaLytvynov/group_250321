@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // Ваша задача написать код который исправит данную строку(создаст новую) без символов /
+      // пример результата 380789089009
+      // const wrongPhone = '380/78/908/9009';
+
+      // const phoneNumber = '+38/077/477/88/22';
+      // alert(phoneNumber.replaceAll('/', ''));
+
+      // let phoneNumber1 = '+38/077/477/88/22';
+      // let normalizedStr = '';
+      // for (let i = 0; i <= phoneNumber1.length; i++) {
+      //   if (phoneNumber1[i] === '/') {
+      //     continue;
+      //   }
+
+      //   normalizedStr += phoneNumber1[i];
+      // }
+      // alert(normalizedStr); /// --------------это не работает
+      const t = prompt('TEST');
+      let i = 0;
+
+      // while (i < t.length) {
+      //   console.log(t[i]);
+      //   i = i + 1;
+      // }
+      let newStr = '';
+      for (let i = 0; i < t.length; i++) {
+        if (t[i] === 'o') {
+          newStr += '*';
+          continue;
+        }
+        newStr += t[i];
+      }
+      console.log(newStr);
+    </script>
+  </body>
+</html>
