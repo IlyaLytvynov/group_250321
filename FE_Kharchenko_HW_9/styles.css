@@ -1,0 +1,15 @@
+.light-change {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  width: 80px;
+  margin: auto;
+}
+
+.light {
+  height: 70px;
+  width: 70px;
+  margin: 5px 5px;
+  border-radius: 50%;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="test1">
+      <button class="btn">btn</button>
+      <h1 class="txt">hello</h1>
+    </div>
+    <div id="test2">
+      <button class="btn">btn</button>
+      <h1 class="txt">hello</h1>
+    </div>
+
+    <script>
+      function widget(root) {
+        const btn = root.querySelector('.btn');
+        const txt = root.querySelector('.txt');
+        let isActive = true;
+        function toggle() {
+          if (isActive === true) {
+            txt.style.setProperty('color', 'white');
+            isActive = false;
+          } else {
+            txt.style.setProperty('color', 'black');
+            isActive = true;
+          }
+        }
+        btn.addEventListener('click', toggle);
+      }
+
+      widget(document.querySelector('#test1'));
+      widget(document.querySelector('#test2'));
+    </script>
+  </body>
+</html>

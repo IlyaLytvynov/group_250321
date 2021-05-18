@@ -3,6 +3,8 @@ function randomNumber(limit = 100) {
   return number;
 }
 
+const TEST = 'HELLO WORLD';
+
 function getRandomColor() {
   const red = randomNumber(255);
   const green = randomNumber(255);

@@ -1,0 +1,3 @@
+const TEST_FROM_MODULE_A = 100500;
+
+export { TEST_FROM_MODULE_A };
