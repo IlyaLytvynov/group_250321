@@ -1,0 +1,47 @@
+.image-feed {
+  display: flex;
+  flex-shrink: 0;
+  max-width: 1200px;
+  margin: auto;
+}
+.image-feed__column {
+  display: flex;
+  width: 33.333%;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.image {
+  width: 100%;
+  position: relative;
+  margin: 10px;
+  overflow: hidden;
+}
+.image__item {
+  width: 100%;
+  display: block;
+}
+.image__author {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  color: #fff;
+  opacity: 0;
+  transition: all 0.2s;
+  transform: translateY(100%);
+  z-index: 1;
+}
+.image__author > a {
+  color: #fff;
+}
+.image:hover .image__author {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/*# sourceMappingURL=imageFeed.css.map */
