@@ -24,7 +24,15 @@ export const WeatherApp = () => {
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
-        setWeather(data);
+        setWeather({
+          name: 'LONDON',
+          main: {
+            temp: 10,
+            feels_like: 20,
+            temp_max: 24,
+            temp_min: 23,
+          },
+        });
       });
   }, [URL]);
   // const { city, temp, feelsLike, max, min } = currentWeather;
@@ -46,3 +54,9 @@ export const WeatherApp = () => {
     </div>
   );
 };
+
+// class Welcome extends React.Component {
+//   render() {
+//     return <h1>Привет, {this.props.name}</h1>;
+//   }
+// }
